@@ -1,6 +1,5 @@
 function compute()
-{
-    
+{    
     var a = document.getElementById("principal").value;
     var p= parseInt(a);
     if(p<0){
