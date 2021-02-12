@@ -1,4 +1,57 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:rgb(0, 0, 0);
+    
+}
+.maindiv{
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 40px;
+    margin-left: 55px;
+    margin-right: 50px;
+}
+h1{
+    color:rgb(122, 126, 121);
+    margin-left: 20px;
+    margin-top: 30px;
+}
 
+label{
+    position: absolute;
+    left: 100;
+    text-align: left;
+}
+input{
+    position: absolute;
+    left: 210;
+    padding-left: 15px;
+}
 
+select{
+    position: absolute;
+  left: 210;
+}
+
+button{
+    position: absolute;
+    left: 105;
+}
+#val{
+    position: relative;
+    left: 300;
+
+}
+#error{
+    position: relative;
+    left:180;
+    color: red;
+}
+#result{
+    position: relative;
+    left: 20px;
+    font: 1em ariel;
+    
+}
+footer{
+    margin-top: 20px;
+    margin-left: 20px;
+}
