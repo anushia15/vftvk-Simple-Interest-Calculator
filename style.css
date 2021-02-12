@@ -15,23 +15,23 @@ h1{
 }
 
 label{
-    position: absolute;
+    position: relative;
     left: 100;
     text-align: left;
 }
 input{
-    position: absolute;
+    position: relative;
     left: 210;
     padding-left: 15px;
 }
 
 select{
-    position: absolute;
+    position: relative;
   left: 210;
 }
 
 button{
-    position: absolute;
+    position: relative;
     left: 105;
 }
 #val{
