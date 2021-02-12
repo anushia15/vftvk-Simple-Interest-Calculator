@@ -1,5 +1,6 @@
 body {
-    background-color:rgb(0, 0, 0);    
+    background-color:rgb(0, 0, 0);
+    
 }
 .maindiv{
     background-color: white;
@@ -15,24 +16,21 @@ h1{
 }
 
 label{
-    position: relative;
-    left: 100;
+    margin-left: 50px;
     text-align: left;
 }
 input{
-    position: relative;
-    left: 210;
-    padding-left: 15px;
+    margin-left: 35px;
 }
 
 select{
-    position: relative;
-  left: 210;
+   
+  margin-left: 35px;
 }
 
 button{
-    position: relative;
-    left: 105;
+    
+    margin-left: 52px;
 }
 #val{
     position: relative;
@@ -53,4 +51,5 @@ button{
 footer{
     margin-top: 20px;
     margin-left: 20px;
+    margin-bottom: 8px;
 }
