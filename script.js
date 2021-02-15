@@ -6,6 +6,10 @@ function compute()
       alert(" please enter a positive number");
       //document.getElementById("error").innerHTML=" please enter a positive number";
     }
+    else if(p==0){
+      alert(" please enter a positive number");
+      //document.getElementById("error").innerHTML=" please enter a positive number";
+    }
     else if(a!=""){
       document.getElementById("error").innerHTML="";
     var x = document.getElementById("rate").value;
@@ -22,7 +26,7 @@ function compute()
     document.getElementById("result").innerHTML = op;
     }
     else{
-      alert(" please enter amount");
+      alert("enter a positive number");
         
     }
 }
